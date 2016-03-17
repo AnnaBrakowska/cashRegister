@@ -230,50 +230,7 @@ function currencyFormat(number) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // When the user submits the form, run the `enter` function
-// $('#entry').submit(enter);
-
-// // `enter()` reads the user's input, and updates the receipt
-// function enter(event) {
-  
-//   // Set up variables to use
-//   var entry;
-  
-//   // Prevent form submission
-//   event.preventDefault();
-  
-//   // Read the user input
-//   entry1 = $('#newEntry').val();
-  
-//   // Convert to decimal
-//   entry1 = parseFloat(entry);
-  
-  
-//   // Add line item to table
-//   $('#entries1').append('<tr><td></td><td>');
-
-//   // Print the updated total with proper currency formatting
-//   $('#totalList').html(currencyFormat(total));
-  
-//   // Clear out the input field, ready for next value
-//   $('#newEntry1').val('');
-  
-// }
+var
 
 
 
@@ -295,97 +252,14 @@ function currencyFormat(number) {
 
 
 
-// $('.multi-field-wrapper').each(function() {
-//     var $wrapper = $('.multi-fields', this);
-//     $(".add-field", $(this)).click(function(e) {
-//         $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('input').val('').focus();
-//     });
-//     $('.multi-field .remove-field', $wrapper).click(function() {
-//         if ($('.multi-field', $wrapper).length > 1)
-//             $(this).parent('.multi-field').remove();
-//     });
-// });
 
 
 
 
 
 
-// function cashRegister() {
-//     var total = 0;
-//     $('#price').each(function() {
-//         total += parseInt($(this).text(),10);
-//     });
-//     $('#cost').html(total);
-// $('#add').click(cashRegister);​
-// );
-	
-// Here is a fiddle of what i think you want to do:
-
-// http://jsfiddle.net/maniator/qEy3L/
-
-// JS:
-
-// function getTotal(){
-//     var total = 0;
-//     $('.price').each(function(){
-//         total += parseFloat(this.innerHTML)
-//     });
-//     $('#total').text(total);
-// }
-
-// getTotal();
 
 
 
 
-
-// var cashRegister = {
-//     total: 0,
-//     add: function (itemCost) {
-//         this.total += itemCost;
-//     },
-
-//     scan: function (item) {
-//         switch (item) { 
-//         case "eggs": 
-//             this.add(0.98); 
-//             break;
-
-//         case "milk": 
-//             this.add(1.23); 
-//             break;
-
-//          case "magazine": 
-//             this.add(4.99); 
-//             break;
-
-//          case "chocolate": 
-//             this.add(0.45); 
-//             break;
-//         }
-//         return true;
-//     }
-// };
-
-// cashRegister.scan("eggs");
-// cashRegister.scan("eggs");
-// cashRegister.scan("magazine");
-// cashRegister.scan("magazine");
-// cashRegister.scan("magazine");
-
-
-// $("#howOld").click(function(){
-// 	var age=$("#box3").val();
-// 	var currentYear = new Date().getFullYear();
-// 	var yourAge="You are either " + (currentYear-age) + " or " + (currentYear-age-1) + " years old.";
-// 	$("#age").html(yourAge);
-// });
-// <input type="text" placeholder="Price"></input>
-// <input type="text" placeholder="Name"></input>
-// <button id="add">Add Item</button>
-// <div id="list"></div>
-// <div>Total: $
-// 	<span id="cost"></span>
-// </div>
 
